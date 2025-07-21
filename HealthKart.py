@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 import pandas as pd
 import numpy as np
 import datetime
@@ -604,11 +598,3 @@ def export_csv(n_clicks, tracking_data_json, payouts_data_json, influencers_data
 
 if __name__ == '__main__':
     app.run_server(host='127.0.0.1', port=8050, debug=True)
-
-
-
-# In[ ]:
-
-
-
-
